@@ -1,9 +1,13 @@
-body {
-background-image: url('/assets/img/coworking-paysage.jpeg');
-}
 
 
-body {
-    background-image: url('/assets/img/coworking-portrait.jpeg');
+@media all and ( orientation:landscape) {
+    body {
+        background-image: url('/assets/img/coworking-paysage.jpeg') ;
     }
-    
+  }
+
+  @media all and ( orientation:portrait) {
+    body {
+        background-image: url('/assets/img/coworking-portrait.jpeg') ;
+    }
+  }
