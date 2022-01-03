@@ -1,0 +1,41 @@
+
+
+}
+@media all and ( orientation:landscape) and (max-width: 1024px){
+    .bloc {
+        background-image: url('/assets/img/coworking-paysage.jpeg') ;
+        height: 1000px;
+        padding: 0;
+        margin: 0;
+        }
+}
+@media all and ( orientation:landscape) and (min-width: 1024px){
+    .bloc {
+        background-image: url('/assets/img/coworking-paysage.jpeg') ;
+        height: 400px;
+        padding: 0px;
+        margin: 0px;
+
+    }
+}
+
+@media all and ( orientation:portrait) {
+    .bloc {
+        background-image: url('/assets/img/coworking-portrait.jpeg') ;
+        height: 1000px;
+        padding: 0px;
+        margin: 0px;
+    }
+}
+
+
+@media all and ( orientation:portrait) {
+    .bloc {
+        background-image: url('/assets/img/coworking-portrait.jpeg') ;
+        height: 400px;
+        padding: 0px;
+        margin: 0px;
+    }
+}
+
+
